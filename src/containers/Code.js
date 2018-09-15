@@ -104,6 +104,15 @@ const UsedItem = styled.ul`
   letter-spacing: 0.5px;
 `;
 
+const CenteredDiv = styled.div`
+  padding-top: 5vh;
+  text-align: center;
+  font-family: 'Zilla Slab Highlight', sans-serif;
+  color: black;
+  display: inline-block;
+`;
+
+
 class Code extends Component {
   render() {
     return (
@@ -112,7 +121,7 @@ class Code extends Component {
           <CenteredHeader>Skills:</CenteredHeader>
           <div className="row">
             <div className="col-lg-4 col-md-4 col-sm-4">
-              <h5>Front-end:</h5>
+              <h3>Front-end:</h3>
               <ul>
                 <li>JavaScript (ES6)</li>
                 <li>TypeScript</li>
@@ -120,13 +129,12 @@ class Code extends Component {
                 <li>Redux</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
-                <li>jQuery</li>
-                <li>AJAX</li>
+                <li>jQuery/ajax</li>
                 <li>Material-UI</li>
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
-              <h5>Back-end:</h5>
+              <h3>Back-end:</h3>
               <ul>
                 <li>NodeJs</li>
                 <li>Express</li>
@@ -136,7 +144,7 @@ class Code extends Component {
               </ul>
             </div>
             <div className="col-lg-4 col-md-4 col-sm-4">
-              <h5>Other:</h5>
+              <h3>Other:</h3>
               <ul>
                 <li>Git</li>
                 <li>Mocha/Chai & Jasmine Testing</li>
@@ -145,6 +153,41 @@ class Code extends Component {
           </div>
         </div>
         <hr />
+
+        <div> {/*Currently interested in learning*/}
+        <CenteredHeader>Interested in learning:</CenteredHeader>
+        <CenteredDiv>
+
+            <PortButton href="https://graphql.org/" target="_blank">
+              graphQL
+            </PortButton>
+
+            <PortButton href="https://www.gatsbyjs.org/" target="_blank">
+              gatsbyjs
+            </PortButton>
+
+
+            <PortButton href="https://golang.org/" target="_blank">
+              Go
+            </PortButton>
+
+            <PortButton href="https://solidity.readthedocs.io/en/v0.4.25/" target="_blank">
+              Solidity
+            </PortButton>
+
+            <PortButton href="https://truffleframework.com/" target="_blank">
+              truffle
+            </PortButton>
+
+            <PortButton href="https://aws.amazon.com/lambda/" target="_blank">
+              lambda(aws)
+            </PortButton>
+
+        </CenteredDiv>
+
+        </div>
+
+     <hr />
 
         <div>         {/*RECENT WORK*/}
           <CenteredHeader>Recent work:</CenteredHeader>
@@ -172,10 +215,9 @@ class Code extends Component {
               Simple risk-like 2 player game where the goal is to try to win all of the tiles in the map w/o getting too unlucky battling the other player!
             </PortDescription>
               <UsedList>
-                <UsedItem>ReactJS</UsedItem>
-                <UsedItem>Redux</UsedItem>
-                <UsedItem>Firebase</UsedItem>
-                <UsedItem>Material-UI</UsedItem>
+                <UsedItem>jQuery</UsedItem>
+                <UsedItem>BootStrap</UsedItem>
+                <UsedItem>Vanilla JavaScript</UsedItem>
               </UsedList>
             </PortAllText>
           </PortRow>{/*END OF PROJECT 1*/}

@@ -9,6 +9,8 @@ const FooterDiv = styled.div`
   background-color: ${ColorScheme.mainLight};
   text-align: center;
   height: 150px;
+  z-index: -1
+
 `;
 
 const SocialIconList = styled.ul`

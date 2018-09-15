@@ -16,8 +16,8 @@ class Home extends Component {
         <p>
           Previously, I've <a href="https://generalassemb.ly/" target="_blank">learned to code</a>,
           served thousands of people <a href="https://www.houndstoothcoffee.com/" target="_blank">specialty coffee</a>,
-          climbed in a 24 hour climbing <a href="https://www.twofourhell.com/" target="_blank">festival</a>
-          festival in Arkansas for 6 years.
+          and climbed in a 24 hour climbing <a href="https://www.twofourhell.com/" target="_blank">festival </a>
+          in Arkansas for 6 years.
           I also hold a degree in <a href="https://xkcd.com/977/" target="_blank">geography</a>,
           from the University of North Texas.
         </p>

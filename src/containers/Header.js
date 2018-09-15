@@ -5,12 +5,6 @@ import TypedJS from '../Typed/index.js'
 import '../Typed/typed.css'
 import Typed from 'react-typed';
 
-const ProfileImage = styled.img`
-  width: 12em;
-  height: 12em;
-  border-radius: 50%;
-`;
-
 const ProfileTitle = styled.h1`
   color: black;
 `
@@ -26,7 +20,7 @@ const NavLink = styled(Link)`
   display: inline-flex;
   margin: 0 5px;
   color: rgba(223, 223, 223, 1);
-  font-size: 24px;
+  font-size: 30px;
 `
 
 
@@ -35,7 +29,6 @@ class Header extends Component {
     return (
       <HeaderDiv>
         <Link to="/">
-{/*          <ProfileImage src={require('../assets/')} alt=''/>*/}
 
           <TypedJS typingText={this.props.typingText} classy=""/>
         </Link>
