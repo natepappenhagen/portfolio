@@ -6,10 +6,9 @@ import { ColorScheme } from '../theme/styleConstants.js'
 const FooterDiv = styled.div`
   padding-top: 3rem;
   padding-bottom: 0;
-  background-color: ${ColorScheme.mainLight};
+  background-color: rgba(0,32,79, .1);
   text-align: center;
   height: 150px;
-  z-index: -1
 
 `;
 

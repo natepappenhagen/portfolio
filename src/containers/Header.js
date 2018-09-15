@@ -5,10 +5,6 @@ import TypedJS from '../Typed/index.js'
 import '../Typed/typed.css'
 import Typed from 'react-typed';
 
-const ProfileTitle = styled.h1`
-  color: black;
-`
-
 const HeaderDiv = styled.div`
   padding-top: 5vh;
   text-align: center;
