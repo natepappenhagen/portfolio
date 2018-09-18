@@ -48,11 +48,12 @@ const PortTitle = styled.h2`
 `;
 
 export const PortButton = styled.a`
+  display: inline-block;
   padding: 10px 15px;
   background: 0 0;
   border: 2px solid ${ColorScheme.secondary};
   border-radius: 3px;
-  margin: 0 5px;
+  margin: 3px;
   color: ${ColorScheme.secondary};
   font-family: Gotham, Helvetica, Arial, sans-serif;
   font-weight: 500;
@@ -72,6 +73,7 @@ export const PortButton = styled.a`
 const PortButtonContainer = styled.div`
   width: 30%;
   margin: 0 auto;
+  display: inline;
 
   @media (max-width: 600px) {
     margin-top: 15px;
