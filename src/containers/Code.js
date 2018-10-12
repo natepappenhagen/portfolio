@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-
 import { CenteredHeader } from "./App.js";
 import { ColorScheme } from "../theme/styleConstants";
 
@@ -194,7 +193,8 @@ class Code extends Component {
         <div>         {/*RECENT WORK*/}
           <CenteredHeader>Recent work:</CenteredHeader>
 
-          <PortRow> {/*START OF PROJECT 1*/}
+          {/*START OF PROJECT 1*/}
+          <PortRow>
             <a href="https://natepappenhagen.github.io/world_DOM_ination/" target="_blank">
               <CodeThumbnail src={require("../assets/worldDOM.png")} />
             </a>
@@ -226,6 +226,36 @@ class Code extends Component {
           <hr />
 
         {/*START OF PROJECT 2*/}
+        <PortRow>
+            <a href="https://piggybank-app.herokuapp.com/" target="_blank">
+              <CodeThumbnail src={require("../assets/piggy_bank.png")} />
+            </a>
+            <PortAllText>
+              <PortTitleContainer>
+                <PortTitle>Piggy-Bank</PortTitle>
+                <PortButtonContainer>
+                  <PortButton href="https://piggybank-app.herokuapp.com/" target="_blank">
+                    Demo
+                </PortButton>
+                  <PortButton href="https://github.com/natepappenhagen/piggy-bank" target="_blank">
+                    Code
+                </PortButton>
+                </PortButtonContainer>
+              </PortTitleContainer>
+              <PortDescription>
+              Basic CryptoCurrency portfolio tracker.
+              This first foray into full-stack web-apps built entirely with NodeJS. I got to practice consuming public APIs a lot!
+              Standard MVC philosophy (no front end framework was used) views were managed with EJS templating.
+            </PortDescription>
+              <UsedList>
+                <UsedItem>NodeJS</UsedItem>
+                <UsedItem>ExpressJS</UsedItem>
+                <UsedItem>BootStrap</UsedItem>
+                <UsedItem>Vanilla JavaScript</UsedItem>
+                <UsedItem>EJS Templating</UsedItem>
+              </UsedList>
+            </PortAllText>
+          </PortRow>{/*END OF PROJECT 1*/}
         {/*START OF PROJECT 3*/}
 
         </div> {/*END OF PROJECTS CONTAINER*/}
