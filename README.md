@@ -1,5 +1,9 @@
 # Nate Pappenhagen
 
+
+## This is an older version of my web site no longer maintained.
+
+
 #### [natepappenhagen.com](http://natepappenhagen.com)
 
 Hi! I'm Nate. I'm a full-stack software developer based in Denver.
